@@ -1,16 +1,31 @@
-# aurorabloom README
+# AuroraBloom — VS Code Theme 🌌
 
-## Working with Markdown
+AuroraBloom is a beautifully crafted dark theme for Visual Studio Code, designed to bring elegance, clarity, and style to your coding environment.  
+Featuring balanced colors, a harmonious UI, and customizable terminal accents, AuroraBloom is perfect for long coding sessions — and yes, you can even add a background image for a personalized touch.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## ✨ Features
 
-## For more information
+- **Dark & Elegant** — Easy on the eyes with carefully selected color contrasts.
+- **Consistent UI Colors** — From editor to sidebar, every section flows together.
+- **Custom Terminal Styling** — Matches the theme seamlessly.
+- **Optional Background Image** — Personalize VS Code with your own wallpaper (via third-party setup).
+- **Readable Syntax Highlighting** — Distinct colors for keywords, strings, functions, and classes.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+## 📷 Screenshots
+
+> *(Add your theme preview screenshots here)*  
+> Recommended size: 1280×720 or similar.
+
+---
+
+## 📦 Installation
+
+1. Open **Visual Studio Code**.
+2. Go to the **Extensions** view (`Ctrl+Shift+X` / `Cmd+Shift+X` on macOS).
+3. Search for **AuroraBloom**.
+4. Click **Install**.
+5. From the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), run:
