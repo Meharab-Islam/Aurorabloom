@@ -17,7 +17,8 @@ Featuring balanced colors, a harmonious UI, and customizable terminal accents, A
 
 ## 📷 Screenshots
 
-![AuroraBloom Theme Preview](image/screenshot.png)
+![AuroraBloom Screenshot](https://raw.githubusercontent.com/Meharab-Islam/Aurorabloom/main/image/screenshot.png)
+
 
 ---
 
