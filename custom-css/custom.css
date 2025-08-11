@@ -1,0 +1,23 @@
+/* custom background image */
+.monaco-workbench .part.editor > .content .editor-container,
+.monaco-workbench .editor-instance .view-lines {
+  background-image: url("file:///absolute/path/to/your/image.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* make editor transparent so background shows */
+.monaco-workbench .part.editor .monaco-editor,
+.monaco-workbench .part.editor .editor-instance .view-lines {
+  background: transparent !important;
+}
+
+/* add a subtle overlay for readability */
+.monaco-workbench .part.editor > .content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  pointer-events: none;
+}

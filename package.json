@@ -1,0 +1,47 @@
+{
+  "name": "aurorabloom",
+  "displayName": "AuroraBloom",
+  "description": "A beautiful VS Code theme with optional background image customization.",
+  "version": "0.0.1",
+  "publisher": "meharabislam",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:aurora-bloom.openCustomCss",
+    "onCommand:aurora-bloom.setBackgroundImage"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aurora-bloom.openCustomCss",
+        "title": "AuroraBloom: Open custom.css"
+      },
+      {
+        "command": "aurora-bloom.setBackgroundImage",
+        "title": "AuroraBloom: Set Background Image"
+      }
+    ],
+    "themes": [
+      {
+        "label": "AuroraBloom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AuroraBloom-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "compile": "npx tsc -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/vscode": "^1.103.0"
+  },
+  "dependencies": {}
+}
