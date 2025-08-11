@@ -3,7 +3,7 @@
   "displayName": "AuroraBloom",
   "description": "A beautiful VS Code theme with optional background image customization.",
   "version": "0.0.1",
-  "publisher": "meharabislam",
+  "publisher": "R-404",
   "engines": {
     "vscode": "^1.103.0"
   },
