@@ -17,9 +17,17 @@ Featuring balanced colors, a harmonious UI, and customizable terminal accents, A
 
 ## 📷 Screenshots
 
-> *(Add your theme preview screenshots here)*  
-> Recommended size: 1280×720 or similar.
+## 🎨 Adding a Background Image
 
+VS Code does not officially support background images, but you can use the community extension **[Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)**.
+
+1. Install the extension above.
+2. Create a `.css` file with:
+```css
+body {
+    background: url("file:///image/screenshot.png") no-repeat center center fixed !important;
+    background-size: cover !important;
+}
 ---
 
 ## 📦 Installation
